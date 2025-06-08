@@ -115,11 +115,11 @@ void recordWav() {
   size_t bytesRead;
   uint32_t totalBytes = 0;
 
-  float scaleFactor = 16.0 f;
-  float fc = 70.0 f;
+  float scaleFactor = 16.0f;
+  float fc = 70.0f;
   float fs = I2S_SAMPLE_RATE;
-  float RC = 1.0 f / (2.0 f * PI * fc);
-  float alpha = RC / (RC + 1.0 f / fs);
+  float RC = 1.0f / (2.0f * PI * fc);
+  float alpha = RC / (RC + 1.0f / fs);
 
   int16_t x_prev = 0, y_prev = 0;
 

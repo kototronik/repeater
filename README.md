@@ -49,7 +49,7 @@
 |------------------|-------------|
 | DIN (DOUT)       | GPIO 25     |
 | BCK (BCLK)       | GPIO 27     |
-| LCK (LRCK)       | GPIO 23     |
+| LCK (LRCK)       | GPIO 26     |
 | VCC              | 3.3В        |
 | GND              | GND         |
 
